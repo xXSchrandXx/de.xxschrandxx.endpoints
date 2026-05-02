@@ -8,7 +8,7 @@
 	<packageinformation>
 		<packagename><![CDATA[Endpoint list]]></packagename>
 		<packagedescription><![CDATA[Adds a endpoint list in acp.]]></packagedescription>
-		<version>1.0.0 dev 1</version>
+		<version>1.0.0</version>
 		<date>2023-11-21</date>
 	</packageinformation>
 
