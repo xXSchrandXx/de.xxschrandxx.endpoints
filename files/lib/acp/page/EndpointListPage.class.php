@@ -16,6 +16,16 @@ class EndpointListPage extends AbstractPage
     public $activeMenuItem = 'wcf.acp.menu.link.devtools.endpointList';
 
     /**
+     * @inheritDoc
+     */
+    public $neededModules = ['ENABLE_DEVELOPER_TOOLS'];
+
+    /**
+     * @inheritDoc
+     */
+    public $neededPermissions = ['admin.configuration.package.canInstallPackage'];
+
+    /**
      * @var array[
      *     'name' => string,
      *     'namespace' => string,
